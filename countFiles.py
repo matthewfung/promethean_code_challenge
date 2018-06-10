@@ -51,7 +51,7 @@ def plot_bar_graph(dictionary, ax=None):
     return ax
 
 args = sys.argv[1:]
-print args
+
 if len(args) < 2:
 	print "Please provide a Root Directory and Filename RegEx as arguments"
 elif len(args) > 3:
